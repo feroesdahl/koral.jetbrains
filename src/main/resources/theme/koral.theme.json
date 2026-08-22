@@ -2,6 +2,7 @@
   "author": "Frederik Erslev Roesdahl",
   "name": "koral",
   "dark": true,
+  "editorScheme": "/theme/koral.scheme.xml",
   "colors": {
     "blue": "#7095CC",
     "cyan": "#70C4CC",
