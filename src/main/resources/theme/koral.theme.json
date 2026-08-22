@@ -1,7 +1,7 @@
 {
   "author": "Frederik Erslev Roesdahl",
-  "dark": true,
   "name": "koral",
+  "dark": true,
   "colors": {
     "blue": "#7095CC",
     "cyan": "#70C4CC",
@@ -11,12 +11,158 @@
     "green": "#70CC8F",
     "yellow": "#CCC771",
     "red": "#CC7070",
+    "dark_black": "#1f1f23",
     "black": "#2C2B33",
     "dark_grey": "#414055",
     "light_grey": "#7D8185",
-    "white": "#EFF7FF"
+    "white": "#EFF7FF",
+    "invisible": "#00000000"
   },
   "ui": {
-    "Button.background": "red"
+    "*": {
+      "background": "dark_black",
+      "foreground": "white",
+      "selectionBackground": "dark_grey",
+      "selectionInactiveBackground": "dark_grey",
+      "selectionBackgroundInactive": "dark_grey",
+      "disabledBackground": "dark_black",
+      "inactiveBackground": "dark_black",
+      "disabledForeground": "dark_black",
+      "disabledText": "light_grey",
+      "inactiveForeground": "light_grey",
+      "infoForeground": "light_grey",
+      "successForeground": "green",
+      "errorForeground": "red",
+      "borderColor": "black"
+    },
+    "ActionButton": {
+      "hoverBackground": "dark_grey",
+      "hoverBorderColor": "dark_grey",
+      "pressedBackground": "dark_grey",
+      "pressedBorderColor": "dark_grey"
+    },
+    "Button": {
+      "startBackground": "black",
+      "endBackground": "black",
+      "startBorderColor": "light_grey",
+      "endBorderColor": "light_grey",
+      "default": {
+        "foreground": "black",
+        "startBackground": "cyan",
+        "endBackground": "cyan",
+        "startBorderColor": "invisible",
+        "endBorderColor": "invisible",
+        "focusedBorderColor": "black",
+        "focusColor": "blue"
+      }
+    },
+    "ComboBox": {
+      "nonEditableBackground": "black",
+      "background": "black",
+      "border": "light_grey",
+      "ArrowButton": {
+        "iconColor": "white",
+        "disabledIconColor": "light_grey",
+        "nonEditableBackground": "black"
+      }
+    },
+    "FileColor": {
+      "Yellow": "#CCC77110",
+      "Green": "#70CC8F10",
+      "Blue": "#7095CC10",
+      "Violet": "#9A70CC10",
+      "Orange": "#CC9A7010",
+      "Rose": "#CC70A710"
+    },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "arc.compact": 16,
+      "borderWidth": 8,
+      "borderWidth.compact": 4,
+      "borderColor": "dark_black",
+      "inactiveAlpha": 0.44
+    },
+    "MainToolbar": {
+      "borderColor": "invisible"
+    },
+    "MainWindow": {
+      "background": "black"
+    },
+    "Notification": {
+      "errorForeground": "white",
+      "errorBackground": "black",
+      "errorBorderColor": "red",
+      "MoreButton.innerBorderColor": "light_grey",
+      "ToolWindow": {
+        "informativeForeground": "white",
+        "informativeBackground": "black",
+        "informativeBorderColor": "cyan",
+        "warningForeground": "white",
+        "warningBackground": "black",
+        "warningBorderColor": "yellow",
+        "errorForeground": "white",
+        "errorBackground": "black",
+        "errorBorderColor": "red"
+      }
+    },
+    "RunWidget": {
+      "runIconColor": "green",
+      "runningBackground": "green",
+      "runningIconColor": "black",
+      "stopBackground": "red",
+      "hoverBackground": "dark_grey"
+    },
+    "StatusBar": {
+      "borderColor": "invisible"
+    },
+    "ToolWindow": {
+      "background": "dark_black",
+      "Header.background": "dark_black",
+      "Header.inactiveBackground": "dark_black",
+      "Button.selectedForeground": "black",
+      "Button.selectedBackground": "cyan",
+      "borderColor": "black",
+      "Stripe.borderColor": "invisible"
+    },
+    "Tree": {
+      "hash": "light_grey",
+      "hoverBackground": "dark_grey",
+      "hoverInactiveBackground": "dark_grey"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "red",
+      "errorBorderColor": "red",
+      "warningBackground": "yellow",
+      "warningBorderColor": "yellow"
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "black",
+        "unmatchedForeground": "light_grey",
+        "hoveredBackground": "dark_grey"
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "light_grey",
+      "Actions.Red": "red",
+      "Actions.Yellow": "yellow",
+      "Actions.Green": "green",
+      "Actions.Blue": "blue",
+      "Actions.GreyInline.Dark": "dark_grey",
+      "Objects.Grey": "light_grey",
+      "Objects.RedStatus": "red",
+      "Objects.Red": "red",
+      "Objects.Pink": "pink",
+      "Objects.Yellow": "yellow",
+      "Objects.Green": "green",
+      "Objects.Blue": "blue",
+      "Objects.Purple": "purple",
+      "Objects.BlackText": "black",
+      "Objects.YellowDark": "orange",
+      "Objects.GreenAndroid": "green"
+    }
   }
 }
