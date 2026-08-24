@@ -1,8 +1,10 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.feroesdahl.koraljetbrains</id>
     <name>Koral</name>
-    <vendor>feroesdahl</vendor>
+    <version>0.0.1</version>
+    <idea-version since-build="262.8665.337"/>
+    <vendor email="fe@roesdahl.com">feroesdahl</vendor>
+    <description><![CDATA[Theme inspired by colors from coral reefs.]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 

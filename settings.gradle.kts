@@ -5,7 +5,6 @@ rootProject.name = "IntelliJ Platform Plugin Template"
 pluginManagement {
     plugins {
         id("org.jetbrains.kotlin.jvm") version "2.1.20"
-        id("org.jetbrains.changelog") version "2.5.0"
     }
 }
 
