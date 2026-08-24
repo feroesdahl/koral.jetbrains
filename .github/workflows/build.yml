@@ -55,4 +55,4 @@ jobs:
             --title $VERSION \
             --generate-notes
 
-          gh release upload $VERSION "./build/distributions/Koral Theme/lib/"*.jar
+          gh release upload $VERSION ./build/distributions/*/*/*/*.jar
