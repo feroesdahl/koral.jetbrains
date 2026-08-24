@@ -686,25 +686,25 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="cc9a70" />
+        <option name="BACKGROUND" value="cc9a7070" />
         <option name="ERROR_STRIPE_COLOR" value="cc9a70" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="702929" />
+        <option name="BACKGROUND" value="70292970" />
         <option name="ERROR_STRIPE_COLOR" value="702929" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="297041" />
+        <option name="BACKGROUND" value="29704170" />
         <option name="ERROR_STRIPE_COLOR" value="297041" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="294570" />
+        <option name="BACKGROUND" value="29457070" />
         <option name="ERROR_STRIPE_COLOR" value="294570" />
       </value>
     </option>
