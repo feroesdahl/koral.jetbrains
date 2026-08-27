@@ -12,41 +12,41 @@
     "green": "#70CC8F",
     "yellow": "#CCC771",
     "red": "#CC7070",
-    "dark_black": "#1f1f23",
+    "dim_black": "#1f1f23",
     "black": "#2C2B33",
-    "dark_grey": "#414055",
-    "light_grey": "#7D8185",
+    "dim_grey": "#414055",
+    "grey": "#7D8185",
     "white": "#EFF7FF",
     "invisible": "#00000000"
   },
   "ui": {
     "*": {
-      "background": "dark_black",
+      "background": "dim_black",
       "foreground": "white",
-      "selectionBackground": "dark_grey",
-      "selectionInactiveBackground": "dark_grey",
+      "selectionBackground": "dim_grey",
+      "selectionInactiveBackground": "dim_grey",
       "selectionBackgroundInactive": "dark_grey",
-      "disabledBackground": "dark_black",
-      "inactiveBackground": "dark_black",
-      "disabledForeground": "dark_black",
-      "disabledText": "light_grey",
-      "inactiveForeground": "light_grey",
-      "infoForeground": "light_grey",
+      "disabledBackground": "dim_black",
+      "inactiveBackground": "dim_black",
+      "disabledForeground": "dim_black",
+      "disabledText": "grey",
+      "inactiveForeground": "grey",
+      "infoForeground": "grey",
       "successForeground": "green",
       "errorForeground": "red",
       "borderColor": "black"
     },
     "ActionButton": {
-      "hoverBackground": "dark_grey",
-      "hoverBorderColor": "dark_grey",
-      "pressedBackground": "dark_grey",
-      "pressedBorderColor": "dark_grey"
+      "hoverBackground": "dim_grey",
+      "hoverBorderColor": "dim_grey",
+      "pressedBackground": "dim_grey",
+      "pressedBorderColor": "dim_grey"
     },
     "Button": {
       "startBackground": "black",
       "endBackground": "black",
-      "startBorderColor": "light_grey",
-      "endBorderColor": "light_grey",
+      "startBorderColor": "grey",
+      "endBorderColor": "grey",
       "default": {
         "foreground": "black",
         "startBackground": "cyan",
@@ -60,10 +60,10 @@
     "ComboBox": {
       "nonEditableBackground": "black",
       "background": "black",
-      "border": "light_grey",
+      "border": "grey",
       "ArrowButton": {
         "iconColor": "white",
-        "disabledIconColor": "light_grey",
+        "disabledIconColor": "grey",
         "nonEditableBackground": "black"
       }
     },
@@ -81,7 +81,7 @@
       "arc.compact": 16,
       "borderWidth": 8,
       "borderWidth.compact": 4,
-      "borderColor": "dark_black",
+      "borderColor": "dim_black",
       "inactiveAlpha": 0.44
     },
     "MainToolbar": {
@@ -94,7 +94,7 @@
       "errorForeground": "white",
       "errorBackground": "black",
       "errorBorderColor": "red",
-      "MoreButton.innerBorderColor": "light_grey",
+      "MoreButton.innerBorderColor": "grey",
       "ToolWindow": {
         "informativeForeground": "white",
         "informativeBackground": "black",
@@ -112,24 +112,24 @@
       "runningBackground": "green",
       "runningIconColor": "black",
       "stopBackground": "red",
-      "hoverBackground": "dark_grey"
+      "hoverBackground": "dim_grey"
     },
     "StatusBar": {
       "borderColor": "invisible"
     },
     "ToolWindow": {
-      "background": "dark_black",
-      "Header.background": "dark_black",
-      "Header.inactiveBackground": "dark_black",
+      "background": "dim_black",
+      "Header.background": "dim_black",
+      "Header.inactiveBackground": "dim_black",
       "Button.selectedForeground": "black",
       "Button.selectedBackground": "cyan",
       "borderColor": "black",
       "Stripe.borderColor": "invisible"
     },
     "Tree": {
-      "hash": "light_grey",
-      "hoverBackground": "dark_grey",
-      "hoverInactiveBackground": "dark_grey"
+      "hash": "grey",
+      "hoverBackground": "dim_grey",
+      "hoverInactiveBackground": "dim_grey"
     },
     "ValidationTooltip": {
       "errorBackground": "red",
@@ -140,20 +140,20 @@
     "VersionControl": {
       "Log.Commit": {
         "currentBranchBackground": "black",
-        "unmatchedForeground": "light_grey",
-        "hoveredBackground": "dark_grey"
+        "unmatchedForeground": "grey",
+        "hoveredBackground": "dim_grey"
       }
     }
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Grey": "light_grey",
+      "Actions.Grey": "grey",
       "Actions.Red": "red",
       "Actions.Yellow": "yellow",
       "Actions.Green": "green",
       "Actions.Blue": "blue",
       "Actions.GreyInline.Dark": "dark_grey",
-      "Objects.Grey": "light_grey",
+      "Objects.Grey": "grey",
       "Objects.RedStatus": "red",
       "Objects.Red": "red",
       "Objects.Pink": "pink",

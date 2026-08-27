@@ -14,3 +14,7 @@ dependencies {
         testFramework(TestFrameworkType.Platform)
     }
 }
+
+tasks.test {
+    failOnNoDiscoveredTests = false
+}

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.github.feroesdahl.koraljetbrains</id>
     <name>Koral</name>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <idea-version since-build="262.8665.337"/>
     <vendor email="fe@roesdahl.com">feroesdahl</vendor>
     <description><![CDATA[Theme inspired by colors from coral reefs.]]></description>
