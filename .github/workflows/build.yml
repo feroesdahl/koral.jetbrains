@@ -67,7 +67,7 @@ jobs:
           gh release create $VERSION \
             --draft \
             --title $VERSION \
-            --generate-notes
+            --generate-notes \
             --notes-file "$RUNNER_TEMP/release-notes.md"
 
           gh release upload $VERSION ./build/distributions/*
