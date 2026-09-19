@@ -4,7 +4,7 @@ rootProject.name = "Koral Theme"
 
 pluginManagement {
     plugins {
-        id("org.jetbrains.kotlin.jvm") version "2.4.10"
+        id("org.jetbrains.kotlin.jvm") version "2.4.20"
     }
 }
 
